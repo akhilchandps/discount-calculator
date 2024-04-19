@@ -19,7 +19,11 @@ input label{
     color: white;
 }
 
+.row{
 
+   position: relative;
+   left: 50px;
+}
 .para{
     border-radius: 20px;
     box-shadow: inset 15px 15px 20px rgba(0,0,0,0.5), -15px -15px 20px rgba(0, 0, 0, 0.1);
@@ -83,4 +87,9 @@ input label{
         border-radius: 20px;
         
     }
+    .row{
+
+        position: relative;
+        left: 0px;
+     }
 }
